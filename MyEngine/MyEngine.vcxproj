@@ -150,6 +150,11 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="color.fs" />
+    <None Include="color.vs" />
+    <None Include="light.fs" />
+    <None Include="light_cube.fs" />
+    <None Include="light_cube.vs" />
     <None Include="shader.fs" />
     <None Include="shader.vs" />
   </ItemGroup>

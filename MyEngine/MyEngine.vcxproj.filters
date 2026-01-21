@@ -42,5 +42,20 @@
     <None Include="shader.fs">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="light.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="light_cube.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="color.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="color.vs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="light_cube.fs">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
