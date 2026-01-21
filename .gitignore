@@ -1,0 +1,31 @@
+# 忽略 Visual Studio 的缓存和配置文件夹
+.vs/
+out/
+build/
+x64/
+Debug/
+Release/
+*.sln
+*.suo
+*.user
+*.sdf
+*.opensdf
+
+# 忽略编译出来的可执行文件和中间文件
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# 忽略 CMake 产生的临时文件 (如果你用了 CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 但是！不要忽略我们自己放的依赖库
+!Dependencies/
+!Dependencies/**
